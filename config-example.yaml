@@ -1,0 +1,12 @@
+zkConnectionString: host1,host2,host3
+
+authCache: maximumSize=1000, expireAfterAccess=20s, expireAfterWrite=20s
+
+hexAuthKey: 0123456789abcdef0123456789abcdef
+
+authType: dynamodb
+dynamodb:
+    region: somewhere-1
+    table: prefix-
+    access: ...
+    secret: ...
